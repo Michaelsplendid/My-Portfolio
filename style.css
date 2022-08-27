@@ -376,10 +376,10 @@ nav {
 }
 
 .pt {
-	margin-top: -9%;
+	margin-top: -8%;
 	font-size: 18px;
 	text-align: center;
-	line-height: 150px;
+	margin-bottom: 50%
 }
 
 .port {
