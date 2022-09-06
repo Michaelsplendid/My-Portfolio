@@ -260,6 +260,7 @@ nav {
 		text-align: center;
 		line-height: 20px;
 		float: left;
+		line-height: 50px;
 	}
 	.menu.active{
 		left: 0;
