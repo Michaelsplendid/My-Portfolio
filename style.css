@@ -279,6 +279,9 @@ nav {
 
 .col-sm-8 p {
 	text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
 }
 
 .col-md-4 {
