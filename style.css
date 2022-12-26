@@ -287,13 +287,14 @@ nav {
 		line-height: 20px;
 		float: left;
 		line-height: 50px;
+		font-size: 10px;
 	}
 	.menu.active{
 		left: 0;
 	}
 
 	h1, h2, h3, h4, h5 {
-		font-size: 12px;
+		font-size: 13px;
 	}
 
 	.col-sm-8 p{
