@@ -284,9 +284,8 @@ nav {
 		margin: 5px;
 		display: inline;
 		text-align: center;
-		line-height: 20px;
+		line-height: 10px;
 		float: left;
-		line-height: 50px;
 		font-size: 10px;
 	}
 	.menu.active{
