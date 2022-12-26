@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-	background-color: black;
+	background-color: white;
 	color: white;
   	background-attachment: scroll;
   	background-size: 100% 100%;
@@ -139,6 +139,30 @@ h1 .caption {
 	padding-bottom: 80px;
 }
 
+.overlay-1 {
+	background-color: rgba(4,14,22,.83);
+	height: 100%;
+	width: 100%;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+}
+
+.overlay-2 {
+	background-color: rgba(4,14,22,.83);
+	height: 100%;
+	width: 100%;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+	margin-bottom: 0 !important;
+}
+
+.overlay-3 {
+	background-color: rgba(4,14,22,.83);
+	height: 100%;
+	width: 100%;
+	margin-bottom: 0 !important;
+}
+
 .in-box {
 	background-image: url("https://i.gifer.com/8J2Q.gif");
 	background-repeat: no-repeat;
@@ -146,7 +170,10 @@ h1 .caption {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	margin: 0 auto;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 3rem;
+	padding-top: 0.5rem;
 }
 
 .fill-up {
@@ -156,17 +183,18 @@ h1 .caption {
 	background-attachment: scroll;
 	height:100%;
 	width: 100%;
-	margin: 0 auto;
+	padding-bottom: 1rem;
+	padding-top: 2rem;
+	margin: 0 !important;
 }
 
 .fill-in {
-	background-image: url("https://imgur.com/bI7EOFV.jpg");
+	background-image: url("https://imgur.com/LRIVutr.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
 	height: 100%;
 	width: 100%;
-	margin: 0 auto;
 }
 
 .container {
@@ -369,7 +397,7 @@ nav {
 }
 
 #portfolio {
-	background-image: url("https://imgur.com/aadqunH.jpg");
+	background-image: url("https://imgur.com/hblZPBh.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
