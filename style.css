@@ -292,35 +292,19 @@ nav {
 		left: 0;
 	}
 
-	h1 {
+	h1, h2, h3, h4, h5 {
 		font-size: 12px;
 	}
 
-	h2 {
-		font-size: 12px;
-	}
-
-	h3 {
-		font-size: 12px;
-	}
-
-	h4 {
-		font-size: 12px;
-	}
-
-	h5 {
-		font-size: 12px;
-	}
-
-	.col-sm-8 p {
+	.col-sm-8 p{
 		font-size: 10px;
 	}
 
-	.horizontal-list p {
+	.horizontal-list p{
 		font-size: 10px;
 	}
 
-	.pt {
+	.pt p{
 		font-size: 10px;
 	}
 
@@ -329,6 +313,14 @@ nav {
 	}
 
 	.data-lists {
+		font-size: 10px;
+	}
+
+	.al {
+		font-size: 10px;
+	}
+
+	.date-1 {
 		font-size: 10px;
 	}
 
@@ -434,7 +426,7 @@ nav {
 }
 
 .horizontal-list {
-	font-size: 20px;
+	font-size: 10px;
 	text-align: center;
 	line-height: 80px;
 }
@@ -458,10 +450,10 @@ nav {
 }
 
 .pt {
-	margin-top: -40px;
-	font-size: 18px;
+	margin-top: -10px;
+	font-size: 10px;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 .pt a {
@@ -469,13 +461,13 @@ nav {
 }
 
 .port {
-	font-size: 20px;
+	font-size: 11px;
 	font-family: serif;
 	text-align: center;
 }
 
 .data-1 {
-	font-size: 20px;
+	font-size: 11px;
 	color: orangered;
 	text-align: center;
 	font-family: 'Fauna One', serif;
@@ -488,7 +480,7 @@ nav {
 }
 
 .data-list-1 {
-	font-size: 20px;
+	font-size: 11px;
 	margin-top: 10px;
 	color: skyblue;
 }
@@ -503,5 +495,5 @@ nav {
 
 .date-1 {
 	color: white;
-	font-size: 12px;
+	font-size: 10px;
 }
