@@ -295,47 +295,6 @@ nav {
 	h1, h2, h3, h4, h5 {
 		font-size: 13px;
 	}
-
-	.col-sm-8 p{
-		font-size: 10px;
-	}
-
-	.horizontal-list p{
-		font-size: 10px;
-	}
-
-	.pt p{
-		font-size: 10px;
-	}
-
-	.port {
-		font-size: 10px;
-	}
-
-	.data-lists {
-		font-size: 10px;
-	}
-
-	.al {
-		font-size: 10px;
-	}
-
-	.date-1 {
-		font-size: 10px;
-	}
-
-	.data-1 {
-		font-size: 11px;
-	}
-
-	.data-list-1 {
-		font-size: 10px;
-	}
-
-	.data-list-3 {
-		font-size: 10px;
-	}
-
 }
 
 #about::before {
@@ -353,7 +312,12 @@ nav {
 	text-align: justify;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 10px;
+        font-size: 15px;
+}
+@media(max-width:768px){
+	.col-sm-8 p{
+		font-size:10px;
+	}
 }
 
 .col-md-4 {
@@ -426,9 +390,14 @@ nav {
 }
 
 .horizontal-list {
-	font-size: 10px;
+	font-size: 15px;
 	text-align: center;
 	line-height: 80px;
+}
+@media(max-width:768px){
+	.horizontal-list{
+		font-size:10px;
+	}
 }
 
 /* Change the font color to skyblue on hover */
@@ -451,9 +420,14 @@ nav {
 
 .pt {
 	margin-top: -10px;
-	font-size: 10px;
+	font-size: 15px;
 	text-align: center;
 	margin-bottom: 60px;
+}
+@media(max-width:768px){
+	.pt{
+		font-size:10px;
+	}
 }
 
 .pt a {
@@ -461,17 +435,27 @@ nav {
 }
 
 .port {
-	font-size: 11px;
+	font-size: 15px;
 	font-family: serif;
 	text-align: center;
 }
+@media(max-width:768px){
+	.port{
+		font-size:10px;
+	}
+}
 
 .data-1 {
-	font-size: 11px;
+	font-size: 15px;
 	color: orangered;
 	text-align: center;
 	font-family: 'Fauna One', serif;
 	margin-top: 4.5%;
+}
+@media(max-width:768px){
+	.data-1{
+		font-size:10px;
+	}
 }
 
 .data-lists {
@@ -480,13 +464,24 @@ nav {
 }
 
 .data-list-1 {
-	font-size: 11px;
+	font-size: 15px;
 	margin-top: 10px;
 	color: skyblue;
+}
+@media(max-width:768px){
+	.data-list-1{
+		font-size:10px;
+	}
 }
 
 .al {
 	color: green;
+	font-size: 14px
+}
+@media(max-width:768px){
+	.al{
+		font-size:10px;
+	}
 }
 
 .data-list-3 {
@@ -495,5 +490,10 @@ nav {
 
 .date-1 {
 	color: white;
-	font-size: 10px;
+	font-size: 13px;
+}
+@media(max-width:768px){
+	.date-1{
+		font-size:10px;
+	}
 }
