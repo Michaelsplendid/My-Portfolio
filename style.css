@@ -104,10 +104,10 @@ h1 .caption {
 .noir {
 	display: block;
 	background-color: black;
-	padding: 10px;
+	padding: 5px;
 	border: 3px solid black;
 	text-decoration: none;
-	width: 55px;
+	width: 100px;
 }
 
 .vertical-list li {
