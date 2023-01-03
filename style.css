@@ -107,7 +107,7 @@ h1 .caption {
 	padding: 5px;
 	border: 3px solid black;
 	text-decoration: none;
-	width: 110px;
+	width: 90px;
 }
 
 .vertical-list li {
@@ -124,7 +124,7 @@ h1 .caption {
 .GitHub {
 	border-color: #0077b5;
 	text-align: center;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 /* END OF ELEMENTS */
