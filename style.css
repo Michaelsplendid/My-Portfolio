@@ -385,6 +385,11 @@ nav {
   text-align: center;
   padding: 20px 0;
 }
+@media(max-width:768px){
+	.grid-container {
+		grid-template-colums: 50px 50px; /*Make the grid smaller than the container*/
+	}
+}
 
 .portfolio {
 	background-image: url("https://imgur.com/hblZPBh.jpg");
