@@ -368,6 +368,14 @@ nav {
 	opacity: .9;
 	text-align: center;
 }
+.grid-container {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 50px 50px; /*Make the grid smaller than the container*/
+        gap: 10px;
+        background-color: none
+        padding: 10px;
+}
 
 #skill-set {
 	margin-top: 10px;
@@ -378,37 +386,12 @@ nav {
   	margin: initial;
 }
 
-#web-development-skills {
-	background-color: none;
-}
-
-.skills {
-	color: white;
-}
-
 .skills {
 	margin: initial;
 }
-
-.horizontal-list {
-	font-size: 15px;
-	text-align: center;
-	line-height: 80px;
-}
 @media(max-width:768px){
-	.horizontal-list{
-		font-size:10px;
+	.
 	}
-}
-
-/* Change the font color to skyblue on hover */
-.horizontal-list p:hover {
-  	color: skyblue;
-}
-
-.horizontal-list p {
-	text-align: center;
-        margin-top: 5rem;
 }
 
 #portfolio {
