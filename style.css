@@ -372,12 +372,18 @@ nav {
 .grid-container {
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: 400px 400px; /*Make the grid smaller than the container*/
+        grid-template-columns: 200px 200px; /*Make the grid smaller than the container*/
         gap: 10px;
         background-color: none;
         padding: 2px;
-        margin-top: 30px;
+        margin-top: 10px;
         overflow: hidden;
+}
+
+.grid-container > div {
+  background-color: none;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .portfolio {
@@ -431,7 +437,7 @@ nav {
 
 .data-lists {
 	text-align: center;
-	margin-top: 3%
+	margin-top: 3%;
 }
 
 .data-list-1 {
@@ -447,7 +453,7 @@ nav {
 
 .al {
 	color: green;
-	font-size: 14px
+	font-size: 14px;
 }
 @media(max-width:768px){
 	.al{
