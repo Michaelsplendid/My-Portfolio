@@ -368,33 +368,19 @@ nav {
 	opacity: .9;
 	text-align: center;
 }
+
 .grid-container {
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: 50px 50px; /*Make the grid smaller than the container*/
+        grid-template-columns: 200px 200px; /*Make the grid smaller than the container*/
         gap: 10px;
         background-color: none
         padding: 10px;
+        margin-top: 10px
+        overflow: hidden;
 }
 
-#skill-set {
-	margin-top: 10px;
-}
-
-#skill-set {
-	overflow: hidden;
-  	margin: initial;
-}
-
-.skills {
-	margin: initial;
-}
-@media(max-width:768px){
-	.
-	}
-}
-
-#portfolio {
+.portfolio {
 	background-image: url("https://imgur.com/hblZPBh.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
