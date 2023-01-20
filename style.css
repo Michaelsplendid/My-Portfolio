@@ -372,7 +372,7 @@ nav {
 .grid-container {
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: 100px 100px; /*Make the grid smaller than the container*/
+        grid-template-columns: 50px 50px; /*Make the grid smaller than the container*/
         gap: 10px;
         background-color: none;
         padding: 2px;
@@ -391,7 +391,7 @@ nav {
 	}
 }
 
-.portfolio {
+#portfolio {
 	background-image: url("https://imgur.com/hblZPBh.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
