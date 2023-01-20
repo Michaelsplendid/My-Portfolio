@@ -372,7 +372,7 @@ nav {
 .grid-container {
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: 200px 200px; /*Make the grid smaller than the container*/
+        grid-template-columns: 100px 100px; /*Make the grid smaller than the container*/
         gap: 10px;
         background-color: none;
         padding: 2px;
