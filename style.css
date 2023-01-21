@@ -487,6 +487,8 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+        text-align: center;
+        text-decoration: none;
 }
 
 .contacts li {
@@ -494,5 +496,11 @@ nav {
 }
 
 .contacts {
-	text-decoration: none;
+	
+}
+
+.contacts ul {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
 }
