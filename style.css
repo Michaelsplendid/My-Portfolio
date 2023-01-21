@@ -81,8 +81,8 @@ h4:hover {
 }
 
 h5 {
-	font-size: 150%;
-	color: orangered;
+	font-size: 40px;
+	color: black;
 	margin-top: 10%;
 	text-align: center;
 	font-family: 'Fauna One', serif;
@@ -90,7 +90,7 @@ h5 {
 
 /* Change the color of h4 to white on hover */
 h5:hover {
-	color: white;
+	color: sky-blue;
 }
 
 h1 .caption {
