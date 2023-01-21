@@ -82,15 +82,15 @@ h4:hover {
 
 h5 {
 	font-size: 40px;
-	color: black;
+	color: orange-red;
 	margin-top: 10%;
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Fauna One', serif;
 }
 
 /* Change the color of h4 to white on hover */
 h5:hover {
-	color: sky-blue;
+	color: white;
 }
 
 h1 .caption {
@@ -178,7 +178,7 @@ h1 .caption {
 }
 
 .fill-up {
-	background-image: url("https://imgur.com/RX8dmR6.jpg");
+	background-image: url("https://i.gifer.com/J4o.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -301,7 +301,7 @@ nav {
 	}
 
 	h1, h2, h3, h4, h5 {
-		font-size: 13px;
+		font-size: 15px;
 	}
 }
 
