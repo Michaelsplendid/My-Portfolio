@@ -334,7 +334,7 @@ nav {
 
 .img-responsive-img-circle {
 	border-radius: 20px;
-        height: 70%;
+        height: 100%;
 }
 
 .social-link {
@@ -483,10 +483,9 @@ nav {
 	}
 }
 
-.contacts {
+.contacts ol {
 	display: flex;
 	align-items: center;
-        text-align: center;
         text-decoration: none;
 }
 
@@ -495,13 +494,4 @@ nav {
 	text-align: center;
 	align-items: center;
 	padding: 20px;
-}
-
-.contacts {
-	
-}
-
-.contacts ol {
-        align-items: center;
-        text-align: center;
 }
