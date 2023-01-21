@@ -495,3 +495,7 @@ nav {
 	align-items: center;
 	padding: 20px;
 }
+
+.contacts ol {
+	text-align: center;
+}
