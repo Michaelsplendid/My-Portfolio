@@ -178,7 +178,7 @@ h1 .caption {
 }
 
 .fill-up {
-	background-image: url("https://imgur.com/NeY5SKW.gif");
+	background-image: url("https://imgur.com/NeY5SKW.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -327,7 +327,7 @@ nav {
 
 .img-responsive-img-circle {
 	border-radius: 20px;
-        height: 400px
+        height: 250px
 }
 
 .social-link {
