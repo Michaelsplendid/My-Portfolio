@@ -485,7 +485,6 @@ nav {
 
 .contacts {
 	display: flex;
-	justify-content: center;
 	align-items: center;
         text-align: center;
         text-decoration: none;
@@ -502,5 +501,4 @@ nav {
 .contacts ul {
         align-items: center;
         text-align: center;
-        justify-content: center;
 }
