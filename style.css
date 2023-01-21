@@ -197,7 +197,7 @@ h1 .caption {
 	height: 100%;
 	width: 100%;
 }
-@media(max-width:780px){
+@media(max-width:768px){
        .fill-up, .fill-in {
                 height: 100%;
                 width: 100%;
@@ -488,6 +488,13 @@ nav {
 	align-items: center;
         text-decoration: none;
 }
+@media(max-width:768px){
+	.contacts{
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+	}
+}
 
 .contacts li {
 	list-style: none;
@@ -495,18 +502,20 @@ nav {
 	align-items: center;
 	padding: 20px;
 }
+@media(max-width:768px){
+	.contacts li{
+		list-style: none;
+		text-align: center;
+		align-items: center;
+		padding: 20px;
+	}
+}
 
 .contacts ol {
 	text-align: center;
 }
 @media(max-width:768px){
 	.contacts, .contacts li, . contacts ol{
-		list-style: none;
 		text-align: center;
-		align-items: center;
-		padding: 20px;
-		display: flex;
-		align-items: center;
-        	text-decoration: none;
 	}
 }
