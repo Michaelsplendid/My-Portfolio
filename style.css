@@ -488,6 +488,10 @@ nav {
 	align-items: center;
         text-decoration: none;
 	text-align: center;
+	list-style: none;
+	text-align: center;
+	align-items: center;
+	padding: 20px;
 }
 @media(max-width:768px){
 	.contacts{
@@ -495,31 +499,9 @@ nav {
 		align-items: center;
 		text-decoration: none;
 		text-align: center;
-	}
-}
-
-.contacts li {
-	list-style: none;
-	text-align: center;
-	align-items: center;
-	padding: 20px;
-}
-@media(max-width:768px){
-	.contacts li{
 		list-style: none;
 		text-align: center;
 		align-items: center;
 		padding: 20px;
-	}
-}
-
-.contacts ol {
-	text-align: center;
-	align-items: center;
-}
-@media(max-width:768px){
-	. contacts ol{
-		text-align: center;
-		align-item: center;
 	}
 }
