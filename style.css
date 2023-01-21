@@ -350,7 +350,7 @@ nav {
 	margin-right: 10px;
 }
 
-.col-lg-3 {
+..grid-container-1 {
 	text-align: center;
 	display: grid;
         justify-content: space-evenly;
@@ -362,13 +362,13 @@ nav {
         overflow: hidden;
 }
 
-.col-lg-3 > div {
+..grid-container-1 > div {
   background-color: none;
   text-align: center;
   padding: 10px 0;
 }
 @media(max-width:768px){
-	.col-lg-3 {
+	..grid-container-1 {
 		grid-template-colums: 20px 20px; /*Make the grid smaller than the container*/
 	}
 }
