@@ -190,7 +190,7 @@ h1 .caption {
 }
 
 .fill-in {
-	background-image: url("https://imgur.com/LRIVutr.jpg");
+	background-image: url("https://imgur.com/uw2lsXA.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -326,7 +326,8 @@ nav {
 }
 
 .img-responsive-img-circle {
-	Border-radius: 20px;
+	border-radius: 20px;
+        height: 100px
 }
 
 .social-link {
@@ -392,7 +393,7 @@ nav {
 }
 
 #portfolio {
-	background-image: url("https://imgur.com/uw2lsXA.jpg");
+	background-image: url("https://imgur.com/LRIVutr.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
