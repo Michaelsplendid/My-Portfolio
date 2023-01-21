@@ -182,7 +182,7 @@ h1 .caption {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
-	height:10%;
+	height:10px;
 	width: 100%;
 	padding-bottom: 1rem;
 	padding-top: 2rem;
@@ -194,8 +194,14 @@ h1 .caption {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
-	height: 10%;
+	height: 10px;
 	width: 100%;
+}
+@media(max-width:780px){
+       .fill-up, .fill-in {
+                height: 100%;
+                width: 100%;
+       }
 }
 
 .container {
