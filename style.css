@@ -492,13 +492,16 @@ nav {
 
 .contacts li {
 	list-style: none;
+	text-align: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .contacts {
 	
 }
 
-.contacts ul {
+.contacts ol {
         align-items: center;
         text-align: center;
 }
