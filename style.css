@@ -68,7 +68,7 @@ h3:hover {
 }
 
 h4 {
-	font-size: 150%;
+	font-size: 200%;
 	color: orangered;
 	margin-top: 1%;
 	text-align: center;
@@ -81,7 +81,7 @@ h4:hover {
 }
 
 h5 {
-	font-size: 40px;
+	font-size: 200%;
 	color: orangered;
 	margin-top: 10%;
 	text-align: center;
@@ -483,7 +483,7 @@ nav {
 	}
 }
 
-.contacts p{
+.contacts {
 	display: inline-block;
 	align-items: center;
         text-decoration: none;
@@ -494,14 +494,14 @@ nav {
 	padding: 20px;
 }
 @media(max-width:768px){
-	.contacts p{
-		display: flex;
-		align-items: center;
-		text-decoration: none;
-		text-align: center;
-		list-style: none;
-		text-align: center;
-		align-items: center;
-		padding: 20px;
+	.contacts {
+		width: 50%;
+                height: 50%;
 	}
+}
+.contacts p{
+        text-align: center;
+        margin: 0;
+        align-items: center;
+        justify-content: center;     
 }
