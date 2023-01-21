@@ -352,8 +352,15 @@ nav {
 
 .col-lg-3 p {
 	text-align: center;
+}
+.col-lg-3 {
 	padding-right: 10px;
 	padding-left: 10px;
+}
+@media(max-width:768px){
+	.col-lg-3 {
+		width: 50px;
+	}
 }
 
 #about h2 {
