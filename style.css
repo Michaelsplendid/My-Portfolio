@@ -495,8 +495,6 @@ nav {
 		align-items: center;
 		text-decoration: none;
 		text-align: center;
-		width: 50%;
-		height: 50%;
 	}
 }
 
@@ -512,20 +510,16 @@ nav {
 		text-align: center;
 		align-items: center;
 		padding: 20px;
-		width: 50%;
-		height: 50%;
 	}
 }
 
-.contacts ul {
+.contacts ol {
 	text-align: center;
 	align-items: center;
 }
 @media(max-width:768px){
-	. contacts ul{
+	. contacts ol{
 		text-align: center;
 		align-item: center;
-		width: 50%;
-		height: 50%;
 	}
 }
