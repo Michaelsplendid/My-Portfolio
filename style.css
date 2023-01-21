@@ -487,12 +487,16 @@ nav {
 	display: flex;
 	align-items: center;
         text-decoration: none;
+	text-align: center;
 }
 @media(max-width:768px){
 	.contacts{
 		display: flex;
 		align-items: center;
 		text-decoration: none;
+		text-align: center;
+		width: 50px;
+		height: 50px;
 	}
 }
 
@@ -508,6 +512,8 @@ nav {
 		text-align: center;
 		align-items: center;
 		padding: 20px;
+		width: 50px;
+		height: 50px;
 	}
 }
 
@@ -517,5 +523,7 @@ nav {
 @media(max-width:768px){
 	.contacts, .contacts li, . contacts ol{
 		text-align: center;
+		width: 50px;
+		height: 50px;
 	}
 }
