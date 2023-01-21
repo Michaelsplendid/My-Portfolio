@@ -482,3 +482,17 @@ nav {
 		font-size:10px;
 	}
 }
+
+.contacts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts li {
+	list-style: none;
+}
+
+.contacts {
+	text-decoration: none;
+}
