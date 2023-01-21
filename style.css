@@ -178,7 +178,7 @@ h1 .caption {
 }
 
 .fill-up {
-	background-image: url("https://imgur.com/NeY5SKW.jpg");
+	background-image: url("https://imgur.com/DyHFUHR.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -213,6 +213,7 @@ h1 .caption {
 #home {
 	background-image: url("https://imgur.com/St1mWS0.jpg");
 	width: 100%;
+        height: 100%;
 	background-size: cover;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
