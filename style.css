@@ -205,7 +205,7 @@ h1 .caption {
 }
 
 #home {
-	background-image: url("https://static.pexels.com/photos/232/apple-iphone-books-desk-large.jpg");
+	background-image: url("https://imgur.com/St1mWS0.jpg");
 	width: 100%;
 	background-size: cover;
 	background-attachment: scroll;
@@ -326,7 +326,7 @@ nav {
 }
 
 .img-responsive-img-circle {
-	Border-radius: 50px;
+	Border-radius: 20px;
 }
 
 .social-link {
