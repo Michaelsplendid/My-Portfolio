@@ -324,7 +324,7 @@ nav {
 }
 @media(max-width:768px){
 	.col-sm-8 p{
-		font-size:10px;
+		font-size:12px;
 	}
 }
 
@@ -352,7 +352,13 @@ nav {
 
 .col-lg-3 p {
 	text-align: center;
-	word-spacing: 100%;
+	padding: 10px;
+}
+@media(max-width:768px){
+	.col-lg-3 p {
+		width: 30px;
+		height: 30px;
+	}
 }
 
 #about h2 {
@@ -416,7 +422,7 @@ nav {
 }
 @media(max-width:768px){
 	.pt{
-		font-size:10px;
+		font-size:12px;
 	}
 }
 
@@ -431,7 +437,7 @@ nav {
 }
 @media(max-width:750px){
 	.port{
-		font-size:10px;
+		font-size:12px;
 	}
 }
 
@@ -444,7 +450,7 @@ nav {
 }
 @media(max-width:750px){
 	.data-1{
-		font-size:10px;
+		font-size:12px;
 	}
 }
 
@@ -460,7 +466,7 @@ nav {
 }
 @media(max-width:768px){
 	.data-list-1{
-		font-size:10px;
+		font-size:12px;
 	}
 }
 
@@ -470,7 +476,7 @@ nav {
 }
 @media(max-width:750px){
 	.al{
-		font-size:10px;
+		font-size:11px;
 	}
 }
 
@@ -484,6 +490,6 @@ nav {
 }
 @media(max-width:768px){
 	.date-1{
-		font-size:10px;
+		font-size:10.5px;
 	}
 }
