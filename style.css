@@ -353,11 +353,6 @@ nav {
 .col-lg-3 p {
 	text-align: center;
 }
-@media(max-width:768px){
-	.col-lg-3 p{
-		width: 50px;
-	}
-}
 
 #about h2 {
 	color: orangered;
