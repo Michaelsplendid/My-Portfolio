@@ -350,29 +350,6 @@ nav {
 	margin-right: 10px;
 }
 
-..grid-container-1 {
-	text-align: center;
-	display: grid;
-        justify-content: space-evenly;
-        grid-template-columns: 20px 20px; /*Make the grid smaller than the container*/
-        gap: 5px;
-        background-color: none;
-        padding: 2px;
-        margin-top: 10px;
-        overflow: hidden;
-}
-
-..grid-container-1 > div {
-  background-color: none;
-  text-align: center;
-  padding: 10px 0;
-}
-@media(max-width:768px){
-	..grid-container-1 {
-		grid-template-colums: 20px 20px; /*Make the grid smaller than the container*/
-	}
-}
-
 #about h2 {
 	color: orangered;
 	margin-top: 50px;
