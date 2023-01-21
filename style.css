@@ -341,12 +341,12 @@ nav {
 	margin-top: 100px;
 	overflow: hidden;
 	padding: 0;
-	display: table;
+	display: block;
 	margin: 0 auto;
 }
 
 .social-link li {
-	display: inline-table;
+	display: block;
 	padding: 20px;
 }
 
@@ -410,13 +410,13 @@ nav {
 
 .pt {
 	margin-top: -10px;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: center;
 	margin-bottom: 60px;
 }
 @media(max-width:768px){
 	.pt{
-		font-size:15px;
+		font-size:13px;
 	}
 }
 
@@ -425,18 +425,18 @@ nav {
 }
 
 .port {
-	font-size: 15px;
+	font-size: 17px;
 	font-family: serif;
 	text-align: center;
 }
 @media(max-width:750px){
 	.port{
-		font-size:15px;
+		font-size:13px;
 	}
 }
 
 .data-1 {
-	font-size: 15px;
+	font-size: 17px;
 	color: orangered;
 	text-align: center;
 	font-family: 'Fauna One', serif;
@@ -444,7 +444,7 @@ nav {
 }
 @media(max-width:750px){
 	.data-1{
-		font-size:15px;
+		font-size:13px;
 	}
 }
 
@@ -454,23 +454,23 @@ nav {
 }
 
 .data-list-1 {
-	font-size: 15px;
+	font-size: 17px;
 	margin-top: 10px;
 	color: skyblue;
 }
 @media(max-width:768px){
 	.data-list-1{
-		font-size:15px;
+		font-size:13px;
 	}
 }
 
 .al {
 	color: green;
-	font-size: 14px;
+	font-size: 16px;
 }
 @media(max-width:750px){
 	.al{
-		font-size:14px;
+		font-size:11px;
 	}
 }
 
@@ -480,10 +480,10 @@ nav {
 
 .date-1 {
 	color: white;
-	font-size: 13px;
+	font-size: 15px;
 }
 @media(max-width:768px){
 	.date-1{
-		font-size:13px;
+		font-size:10.5px;
 	}
 }
