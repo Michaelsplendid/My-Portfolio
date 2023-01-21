@@ -487,26 +487,3 @@ nav {
 		font-size:10px;
 	}
 }
-
-.contacts {
-	display: inline-block;
-	align-items: center;
-        text-decoration: none;
-	text-align: center;
-	list-style: none;
-	text-align: center;
-	align-items: center;
-	padding: 20px;
-}
-@media(max-width:768px){
-	.contacts {
-		width: 50%;
-                height: 50%;
-	}
-}
-.contacts p{
-        text-align: center;
-        margin: 0;
-        align-items: center;
-        justify-content: center;     
-}
