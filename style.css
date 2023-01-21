@@ -499,3 +499,14 @@ nav {
 .contacts ol {
 	text-align: center;
 }
+@media(max-width:768px){
+	.contacts, .contacts li, . contacts ol{
+		list-style: none;
+		text-align: center;
+		align-items: center;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+        	text-decoration: none;
+	}
+}
