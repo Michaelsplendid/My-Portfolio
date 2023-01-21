@@ -324,7 +324,7 @@ nav {
 }
 @media(max-width:768px){
 	.col-sm-8 p{
-		font-size:12px;
+		font-size:15px;
 	}
 }
 
@@ -347,18 +347,12 @@ nav {
 
 .social-link li {
 	display: inline-table;
-	margin-right: 10px;
+	padding: 20px;
 }
 
 .col-lg-3 p {
 	text-align: center;
 	padding: 10px;
-}
-@media(max-width:768px){
-	.col-lg-3 p {
-		width: 30px;
-		height: 30px;
-	}
 }
 
 #about h2 {
@@ -422,7 +416,7 @@ nav {
 }
 @media(max-width:768px){
 	.pt{
-		font-size:12px;
+		font-size:15px;
 	}
 }
 
@@ -437,7 +431,7 @@ nav {
 }
 @media(max-width:750px){
 	.port{
-		font-size:12px;
+		font-size:15px;
 	}
 }
 
@@ -450,7 +444,7 @@ nav {
 }
 @media(max-width:750px){
 	.data-1{
-		font-size:12px;
+		font-size:15px;
 	}
 }
 
@@ -466,7 +460,7 @@ nav {
 }
 @media(max-width:768px){
 	.data-list-1{
-		font-size:12px;
+		font-size:15px;
 	}
 }
 
@@ -476,7 +470,7 @@ nav {
 }
 @media(max-width:750px){
 	.al{
-		font-size:11px;
+		font-size:14px;
 	}
 }
 
@@ -490,6 +484,6 @@ nav {
 }
 @media(max-width:768px){
 	.date-1{
-		font-size:10.5px;
+		font-size:13px;
 	}
 }
