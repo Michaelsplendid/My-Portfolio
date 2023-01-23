@@ -336,6 +336,10 @@ nav {
 	border-radius: 20px;
 }
 
+.img-responsive-img-circle-1 {
+	border-radius: 10px;
+}
+
 .social-link {
 	margin-top: 100px;
 	overflow: hidden;
