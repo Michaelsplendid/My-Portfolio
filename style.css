@@ -537,10 +537,9 @@ nav {
 
 .footer-copy {
 	margin-top: 50px;
+        margin-bottom: 0 !important;
 	color: white;
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: serif;
-	margin-bottom: 0 !important;
-	padding-bottom: 0 !important;
 }
