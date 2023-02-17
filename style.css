@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-	background-color: white;
+	background-color: #0d2435;
 	color: white;
   	background-attachment: scroll;
   	background-size: 100% 100%;
@@ -25,27 +25,30 @@ h1 {
 	margin-top: 10%;
 	font-size: 200%;
 }
+h1, h1 > small, h2, h3, h4, h5, h6 {
+	text-shadow: 1px 1px 2px black, 0 0 25px blueviolet, 0 0 25px blueviolet;
+  }
 
 /* Change the color of h1 to white on hover */
 h1:hover {
-	color: white;
+	color: #0077b5;
 }
 
 h1 > small {
 	display: block;
-	color: white;
+	color: orchid;
 }
 
 h2 {
 	font-size: 200%;
 	margin: 0 auto;
 	text-align: center;
-	color: orangered;
+	color: #0077b5;
 }
 
 /* Change the color of h2 to white on hover */
 h2:hover {
-	color: white;
+	color: orangered;
 }
 
 h2: after {
@@ -59,17 +62,17 @@ h3 {
 	font-size: 200%;
 	margin-top: 5%;
 	text-align: center;
-	color: orangered;
+	color: #0077b5;
 }
 
 /* Change the color of h3 to white on hover */
 h3:hover {
-	color: white;
+	color: orangered;
 }
 
 h4 {
 	font-size: 200%;
-	color: orangered;
+	color: #0077b5;
 	margin-top: 1%;
 	text-align: center;
 	font-family: 'Fauna One', serif;
@@ -77,20 +80,33 @@ h4 {
 
 /* Change the color of h4 to white on hover */
 h4:hover {
-	color: white;
+	color: orangered;
 }
 
 h5 {
 	font-size: 200%;
 	color: orangered;
-	margin-top: 10%;
+	margin-top: 10px;
 	text-align: center;
 	font-family: 'Fauna One', serif;
 }
 
 /* Change the color of h4 to white on hover */
 h5:hover {
-	color: white;
+	color: #0077b5;
+}
+
+h6 {
+	font-size: 200%;
+	color: #0077b5;
+	margin-top: 10%;
+	text-align: center;
+	font-family: 'Fauna One', serif;
+}
+
+/* Change the color of h4 to white on hover */
+h6:hover {
+	color: orangered;
 }
 
 h1 .caption {
@@ -282,7 +298,7 @@ nav {
 		top: 3rem;
 		left: -200%;
 		width: 50%;
-		height: 30vh;
+		height: 40vh;
 		transition: 1.0s;
 		background-color: black;
 		text-align: center;
@@ -300,7 +316,7 @@ nav {
 		left: 0;
 	}
 
-	h1, h2, h3, h4, h5 {
+	h1, h2, h3, h4, h5, h6 {
 		font-size: 15px;
 	}
 }
@@ -358,7 +374,6 @@ nav {
 }
 
 #about h2 {
-	color: orangered;
 	margin-top: 50px;
 }
 
@@ -439,7 +454,7 @@ nav {
 
 .data-1 {
 	font-size: 15px;
-	color: orangered;
+	color: #0077b5;
 	text-align: center;
 	font-family: 'Fauna One', serif;
 	margin-top: 4.5%;
@@ -488,4 +503,44 @@ nav {
 	.date-1{
 		font-size:10.5px;
 	}
+}
+
+.cv {
+	text-align: center;
+}
+
+.resume {
+	text-align: center;
+	align-items: center;
+	display: flex;
+	margin-top: 9px;
+}
+
+.email {
+	margin-top: 20px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+
+/* Change the .email span color to blue on hover */
+.email span:hover{
+	color: royalblue;
+}
+
+.email span {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footer-copy {
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	font-family: serif;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
 }
