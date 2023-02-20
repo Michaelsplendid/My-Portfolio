@@ -44,16 +44,16 @@ h1 > small {
   animation-name: slidein;
 }
 
-@keyframes slidein {
+@keyframes slidedown {
   from {
     margin-right: 100%;
-    width: 300%;
+    width: 100%;
   }
 
-  50% {
-    font-size: 200%;
+  10% {
+    font-size: 100%;
     margin-right: 25%;
-    width: 150%;
+    width: 100%;
   }
 
   to {
