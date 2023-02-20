@@ -39,6 +39,29 @@ h1 > small {
 	color: orchid;
 }
 
+h1 > small {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 200%;
+    margin-right: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
 h2 {
 	font-size: 200%;
 	margin: 0 auto;
