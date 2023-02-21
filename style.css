@@ -40,7 +40,7 @@ h1 > small {
 }
 
 h1 > small {
-	animation: 3s infinite alternate slidein;
+	animation: 3s alternate slidedown;
 }
 
 h2 {
