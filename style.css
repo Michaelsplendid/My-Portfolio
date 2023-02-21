@@ -40,7 +40,8 @@ h1 > small {
 }
 
 h1 > small {
-	animation: 3s alternate slidedown;
+	animation-name: fadeInOut, moveLeft300px, bounce;
+	animation-duration: 3s;
 }
 
 h2 {
