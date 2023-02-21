@@ -40,26 +40,7 @@ h1 > small {
 }
 
 h1 > small {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidedown {
-  from {
-    margin-right: 100%;
-    width: 100%;
-  }
-
-  10% {
-    font-size: 100%;
-    margin-right: 25%;
-    width: 100%;
-  }
-
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
+	animation: 3s infinite alternate slidein;
 }
 
 h2 {
