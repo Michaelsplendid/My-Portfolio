@@ -417,7 +417,7 @@ nav {
 	text-align: center;
 }
 
-.grid-container, .grind-container > div {
+.grid-container {
   	display: flex;
   	align-items: center;
   	justify-content: space-around;
