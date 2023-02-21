@@ -418,9 +418,14 @@ nav {
 }
 
 .grid-container {
-  	display: flex;
-  	align-items: center;
-  	justify-content: space-around;
+  	display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 50px 50px; /*Make the grid smaller than the container*/
+        gap: 10px;
+        background-color: none;
+        padding: 2px;
+        margin-top: 10px;
+        overflow: hidden;
 }
       
 .grid-container > div {
