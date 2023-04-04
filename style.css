@@ -548,15 +548,14 @@ nav {
 	text-decoration: none;
 }
 
-/* Change the .email span color to blue on hover */
-.email span:hover{
-	color: royalblue;
-}
 
 .email span, em {
 	color: skyblue;
 	text-decoration: none;
-	font-size: 12px;
+}
+	/* Change the font-size: 12px;ail span color to blue on hover */
+.email span:hover{
+	color: royalblue;
 }
 
 .footer-copy {
