@@ -545,6 +545,7 @@ nav {
 	color: #ffffff;
 	font-size: 13px;
 	font-family: sans-serif;
+	text-decoration: none;
 }
 
 /* Change the .email span color to blue on hover */
@@ -552,7 +553,7 @@ nav {
 	color: royalblue;
 }
 
-.email span {
+.email span, em {
 	color: skyblue;
 	text-decoration: none;
 	font-size: 12px;
