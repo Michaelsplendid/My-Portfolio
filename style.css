@@ -545,9 +545,11 @@ nav {
 	color: #ffffff;
 	font-size: 13px;
 	font-family: sans-serif;
-	text-decoration: none;
 }
 
+.email a {
+        text-decoration: none;
+}
 
 .email span, em {
 	color: skyblue;
