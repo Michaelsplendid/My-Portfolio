@@ -24,7 +24,7 @@ h1 {
 	color: orangered;
 	text-align: center;
 	margin-top: 10%;
-	font-size: xx-large;
+	font-size: medium;
 }
 h1, h1 > small, h2, h3, h4, h5, h6 {
 	text-shadow: 1px 1px 2px black, 0 0 25px blueviolet, 0 0 25px blueviolet;
@@ -111,7 +111,7 @@ h6:hover {
 }
 
 h1 .caption {
-	font-size: large;
+	font-size: xx-large;
 	font-family: 'Brush Script MT', cursive;
 	width: 200px;
 	margin: 0 auto;
