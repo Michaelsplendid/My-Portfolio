@@ -522,11 +522,11 @@ nav {
         margin-bottom: 0 !important;
 	color: white;
 	text-align: center;
-	font-size: medium;
+	font-size: small;
 	font-family: serif;
 }
 
-@media(max-width:300px){
+@media(max-width:800px){
       body {
         font-size: large;
       }
