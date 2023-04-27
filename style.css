@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-        font-size: x-small;
+        font-size: smaller;
 	background-color: #111111;
 	color: white;
   	background-attachment: scroll;
@@ -471,7 +471,6 @@ nav {
 }
 
 .data-list-1 {
-	font-size: medium;
 	margin-top: 10px;
 	color: skyblue;
 }
