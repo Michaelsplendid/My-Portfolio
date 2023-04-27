@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-        font-size: medium;
+        font-size: smaller;
 	background-color: #111111;
 	color: white;
   	background-attachment: scroll;
@@ -505,7 +505,7 @@ nav {
 	margin-top: 20px;
 	text-align: center;
 	color: #ffffff;
-	font-size: medium;
+	font-size: large;
 	font-family: sans-serif;
 }
 
