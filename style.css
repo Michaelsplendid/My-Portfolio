@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-        font-size: smaller;
+        font-size: small;
 	background-color: #111111;
 	color: white;
   	background-attachment: scroll;
@@ -531,7 +531,7 @@ nav {
         font-size: large;
       }
       bio p {
-        font-size: large;
+        font-size: xx-large;
       }
 }
            
