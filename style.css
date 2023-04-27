@@ -529,10 +529,10 @@ nav {
 
 @media(max-width:1000px){
       body {
-        font-size: large;
+        font-size: x-large;
       }
       col-sm-8 p {
-        font-size: large;
+        font-size: x-large;
       }
 }
            
