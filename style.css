@@ -527,12 +527,12 @@ nav {
 	font-family: serif;
 }
 
-@media(max-width:300px){
+@media(max-width:1000px){
       body {
-        font-size: x-small;
+        font-size: large;
       }
       col-sm-8 p {
-        font-size: x-small;
+        font-size: large;
       }
 }
            
