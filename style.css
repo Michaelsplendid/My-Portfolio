@@ -526,3 +526,13 @@ nav {
 	font-size: small;
 	font-family: serif;
 }
+
+@media(max-width:300px){
+      body {
+        font-size: x-small;
+      }
+      col-sm-8 p {
+        font-size: x-small;
+      }
+}
+           
