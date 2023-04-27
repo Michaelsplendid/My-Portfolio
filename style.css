@@ -117,7 +117,7 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, .col-md-4, .signature {
+h1 .caption, h1 > small, h2, col-sm-8 p, .col-md-4, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
