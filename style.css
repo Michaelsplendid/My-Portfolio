@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-        font-size: smallest;
+        font-size: small;
 	background-color: #111111;
 	color: white;
   	background-attachment: scroll;
@@ -111,7 +111,7 @@ h6:hover {
 }
 
 h1 .caption {
-	font-size: larger;
+	font-size: large;
 	font-family: 'Brush Script MT', cursive;
 	width: 200px;
 	margin: 0 auto;
@@ -356,6 +356,7 @@ nav {
 	text-align: justify;
         margin-left: 20px;
         margin-right: 20px;
+        font-size: small;
 }
 
 .col-md-4 {
