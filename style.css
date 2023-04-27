@@ -117,7 +117,7 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, .col-md-4, .signature {
+h1 .caption, h1 > small, h2, .col-md-4, col-sm-8, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
@@ -360,7 +360,6 @@ nav {
 	text-align: justify;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: large;
 }
 
 .col-md-4 {
@@ -446,7 +445,6 @@ nav {
 
 .pt {
 	margin-top: -10px;
-	font-size: large;
 	text-align: center;
 	margin-bottom: 60px;
 }
@@ -456,13 +454,11 @@ nav {
 }
 
 .port {
-	font-size: large;
 	font-family: serif;
 	text-align: center;
 }
 
 .data-1 {
-	font-size: large;
 	color: #0077b5;
 	text-align: center;
 	font-family: 'Fauna One', serif;
@@ -482,7 +478,7 @@ nav {
 
 .al {
 	color: green;
-	font-size: medium;
+	font-size: small;
 }
 
 .data-list-3 {
@@ -491,7 +487,7 @@ nav {
 
 .date-1 {
 	color: white;
-	font-size: medium;
+	font-size: small;
 }
 
 .cv {
@@ -509,7 +505,7 @@ nav {
 	margin-top: 20px;
 	text-align: center;
 	color: #ffffff;
-	font-size: large;
+	font-size: medium;
 	font-family: sans-serif;
 }
 
@@ -531,6 +527,6 @@ nav {
         margin-bottom: 0 !important;
 	color: white;
 	text-align: center;
-	font-size: larger;
+	font-size: large;
 	font-family: serif;
 }
