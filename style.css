@@ -117,7 +117,7 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, col-sm-8 p, .col-md-4, .signature {
+h1 .caption, h1 > small, h2, bio p, .col-md-4, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
@@ -352,11 +352,10 @@ nav {
 	display: block;
 }
 
-.col-sm-8 p {
-	text-align: justify;
+.bio p {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: x-small;
+        Font-size: 15px;
 }
 
 .col-md-4 {
