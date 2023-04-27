@@ -40,7 +40,7 @@ h1 > small {
 }
 
 h2 {
-	font-size: larger;
+	font-size: x-large;
 	margin: 0 auto;
 	text-align: center;
 	color: #0077b5;
@@ -59,7 +59,7 @@ h2: after {
 
 h3 {
 	font-weight: bold;
-	font-size: larger;
+	font-size: x-large;
 	margin-top: 5%;
 	text-align: center;
 	color: #0077b5;
@@ -71,7 +71,7 @@ h3:hover {
 }
 
 h4 {
-	font-size: larger;
+	font-size: x-large;
 	color: #0077b5;
 	margin-top: 1%;
 	text-align: center;
@@ -84,7 +84,7 @@ h4:hover {
 }
 
 h5 {
-	font-size: larger;
+	font-size: x-large;
 	color: orangered;
 	margin-top: 10px;
 	text-align: center;
@@ -97,7 +97,7 @@ h5:hover {
 }
 
 h6 {
-	font-size: larger;
+	font-size: x-large;
 	color: #0077b5;
 	margin-top: 10%;
 	text-align: center;
@@ -116,7 +116,7 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, h3, h4, h5, .col-sm-8 p, .col-md-4, .signature {
+h1 .caption, h1 > small, h2, .col-md-4, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
@@ -359,7 +359,7 @@ nav {
 	text-align: justify;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: medium;
+        font-size: large;
 }
 
 .col-md-4 {
@@ -445,7 +445,7 @@ nav {
 
 .pt {
 	margin-top: -10px;
-	font-size: small;
+	font-size: large;
 	text-align: center;
 	margin-bottom: 60px;
 }
@@ -455,13 +455,13 @@ nav {
 }
 
 .port {
-	font-size: small;
+	font-size: large;
 	font-family: serif;
 	text-align: center;
 }
 
 .data-1 {
-	font-size: small;
+	font-size: large;
 	color: #0077b5;
 	text-align: center;
 	font-family: 'Fauna One', serif;
@@ -474,14 +474,14 @@ nav {
 }
 
 .data-list-1 {
-	font-size: small;
+	font-size: medium;
 	margin-top: 10px;
 	color: skyblue;
 }
 
 .al {
 	color: green;
-	font-size: small;
+	font-size: medium;
 }
 
 .data-list-3 {
@@ -490,7 +490,7 @@ nav {
 
 .date-1 {
 	color: white;
-	font-size: small;
+	font-size: medium;
 }
 
 .cv {
@@ -508,7 +508,7 @@ nav {
 	margin-top: 20px;
 	text-align: center;
 	color: #ffffff;
-	font-size: small;
+	font-size: large;
 	font-family: sans-serif;
 }
 
@@ -520,7 +520,7 @@ nav {
 	color: skyblue;
 	text-decoration: none;
 }
-	/* Change the font-size: 12px;ail span color to blue on hover */
+	/* Change the email span color to royalblue on hover */
 .email span:hover{
 	color: royalblue;
 }
@@ -530,6 +530,6 @@ nav {
         margin-bottom: 0 !important;
 	color: white;
 	text-align: center;
-	font-size: small;
+	font-size: larger;
 	font-family: serif;
 }
