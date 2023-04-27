@@ -117,7 +117,7 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, .col-md-4, col-sm-8 p, .signature {
+h1 .caption, h1 > small, h2, .col-md-4, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
@@ -339,10 +339,6 @@ nav {
 	.menu.active{
 		left: 0;
 	}
-
-	h1, h2, h3, h4, h5, h6 {
-		font-size: medium;
-	}
 }
 
 #about::before {
@@ -405,7 +401,7 @@ nav {
 
 #about .signature {
 	font-family: 'Brush Script MT', cursive;
-	font-size: 150%;
+	font-size: xx-large;
 	text-align: center;
 	color: #0d2435;
 	opacity: .9;
