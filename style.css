@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-        font-size: smaller;
+        font-size: smallest;
 	background-color: #111111;
 	color: white;
   	background-attachment: scroll;
@@ -117,7 +117,7 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, .col-md-4, col-sm-8, .signature {
+h1 .caption, h1 > small, h2, .col-md-4, col-sm-8 p, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
@@ -505,7 +505,7 @@ nav {
 	margin-top: 20px;
 	text-align: center;
 	color: #ffffff;
-	font-size: large;
+	font-size: medium;
 	font-family: sans-serif;
 }
 
@@ -527,6 +527,6 @@ nav {
         margin-bottom: 0 !important;
 	color: white;
 	text-align: center;
-	font-size: large;
+	font-size: small;
 	font-family: serif;
 }
