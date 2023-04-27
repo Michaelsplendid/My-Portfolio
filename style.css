@@ -355,7 +355,7 @@ nav {
 .bio p {
         margin-left: 20px;
         margin-right: 20px;
-        Font-size: 15px;
+        Font-size: 12px;
 }
 
 .col-md-4 {
@@ -526,11 +526,11 @@ nav {
 	font-family: serif;
 }
 
-@media(max-width:1000px){
+@media(max-width:300px){
       body {
         font-size: large;
       }
-      col-sm-8 {
+      bio p {
         font-size: large;
       }
 }
