@@ -523,16 +523,16 @@ nav {
         margin-bottom: 0 !important;
 	color: white;
 	text-align: center;
-	font-size: small;
+	font-size: medium;
 	font-family: serif;
 }
 
 @media(max-width:1000px){
       body {
-        font-size: x-large;
+        font-size: large;
       }
-      col-sm-8 p {
-        font-size: x-large;
+      col-sm-8 {
+        font-size: large;
       }
 }
            
