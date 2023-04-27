@@ -355,10 +355,11 @@ nav {
 .bio p {
         margin-left: 20px;
         margin-right: 20px;
-        Font-size: 12px;
+        font-size: 12px;
+        text-align: left;
 }
 
-. signature {
+.signature {
         font-size: 15px;
 }
 
