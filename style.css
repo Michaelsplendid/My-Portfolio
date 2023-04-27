@@ -111,13 +111,13 @@ h6:hover {
 }
 
 h1 .caption {
-	font-size: 30px;
+	font-size: 50px;
 	font-family: 'Brush Script MT', cursive;
 	width: 200px;
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, bio p, .col-md-4, .signature {
+h1 .caption, h1 > small, h2, .bio p, .col-md-4, .signature {
   animation-duration: 2.0s;
   animation-name: slidein;
 }
@@ -356,6 +356,10 @@ nav {
         margin-left: 20px;
         margin-right: 20px;
         Font-size: 12px;
+}
+
+. signature {
+        font-size: 15px;
 }
 
 .col-md-4 {
