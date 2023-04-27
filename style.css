@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fauna One', serif;
-	background-color: #222222;
+	background-color: #111111;
 	color: white;
   	background-attachment: scroll;
   	background-size: 100% 100%;
@@ -40,7 +40,7 @@ h1 > small {
 }
 
 h2 {
-	font-size: 200%;
+	font-size: large;
 	margin: 0 auto;
 	text-align: center;
 	color: #0077b5;
@@ -59,7 +59,7 @@ h2: after {
 
 h3 {
 	font-weight: bold;
-	font-size: 200%;
+	font-size: large;
 	margin-top: 5%;
 	text-align: center;
 	color: #0077b5;
@@ -71,7 +71,7 @@ h3:hover {
 }
 
 h4 {
-	font-size: 200%;
+	font-size: large;
 	color: #0077b5;
 	margin-top: 1%;
 	text-align: center;
@@ -84,7 +84,7 @@ h4:hover {
 }
 
 h5 {
-	font-size: 200%;
+	font-size: large;
 	color: orangered;
 	margin-top: 10px;
 	text-align: center;
@@ -97,7 +97,7 @@ h5:hover {
 }
 
 h6 {
-	font-size: 200%;
+	font-size: large;
 	color: #0077b5;
 	margin-top: 10%;
 	text-align: center;
