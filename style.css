@@ -111,7 +111,7 @@ h6:hover {
 }
 
 h1 .caption {
-	font-size: xx-large;
+	font-size: 30px;
 	font-family: 'Brush Script MT', cursive;
 	width: 200px;
 	margin: 0 auto;
@@ -443,6 +443,7 @@ nav {
 	margin-top: -10px;
 	text-align: center;
 	margin-bottom: 60px;
+        font-size: 12px;
 }
 
 .pt a {
@@ -525,13 +526,3 @@ nav {
 	font-size: small;
 	font-family: serif;
 }
-
-@media(max-width:800px){
-      body {
-        font-size: large;
-      }
-      bio p {
-        font-size: xx-large;
-      }
-}
-           
