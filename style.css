@@ -117,16 +117,6 @@ h1 .caption {
 	margin: 0 auto;
 }
 
-h1 .caption, h1 > small, h2, .bio p, .col-md-4, .signature {
-  animation-duration: 2.0s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 50%;
-    width: 100%;
-  }
 
   10% {
     font-size: 50%;
