@@ -39,23 +39,6 @@ h1 .caption, h1 > small {
 
 h1 .caption, h1 > small {
 
-  animation-duration: 2.0s;
-
-  animation-name: slidein;
-
-}
-
-@keyframes slidein {
-
-  from {
-
-    margin-left: 50%;
-
-    width: 100%;
-
-  }
-
-
 h1 {
 	color: orangered;
 	text-align: center;
