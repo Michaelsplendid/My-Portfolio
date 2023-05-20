@@ -19,9 +19,9 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-h1 .caption, h1 > small {
+h1 .caption, h1 > small, .noir, .Github {
 
-  animation-duration: 2.0s;
+  animation-duration: 2.5s;
 
   animation-name: slidein;
 
@@ -31,7 +31,7 @@ h1 .caption, h1 > small {
 
   from {
 
-    margin-left: 70%;
+    margin-left: 50%;
 
     width: 100%;
 
