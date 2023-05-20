@@ -21,7 +21,7 @@ a:hover, a:focus {
 
 h1 .caption, h1 > small, .noir, .Github {
 
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
 
   animation-name: slidein;
 
