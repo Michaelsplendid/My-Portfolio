@@ -3797,6 +3797,8 @@ textarea.form-control-lg {
 .navbar-text a:hover,
 .navbar-text a:focus {
   color: var(--bs-navbar-active-color);
+  transition: 0.9s;
+  transform: scale(1.5);
 }
 
 .navbar-collapse {
@@ -5135,6 +5137,8 @@ textarea.form-control-lg {
   color: #000;
   text-decoration: none;
   opacity: 0.75;
+  transition: 0.9s;
+  transform: scale(1.5);
 }
 .btn-close:focus {
   outline: 0;
@@ -11553,6 +11557,10 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+ .text-gradient: hover{
+    transition: 0.9s;
+    transform: scale(2.0);
+  }
 
 .rounded-4 {
   border-radius: 1rem !important;
