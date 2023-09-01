@@ -66,34 +66,47 @@
      /**
      * Contact Form
      */
-    async function myFunction(event) {
-    event.preventDefault(); 
-    
-    const contactForm = document.getElementById("contactForm");
-    const formData = new FormData(contactForm);
+   document.addEventListener("DOMContentLoaded", function() {
+      const contactForm = document.getElementById("contactForm");
 
-    try {
-      const response = await fetch("https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758", {
-        method: "POST",
-        body: formData
+      contactForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the form from submitting
+
+        // Get form data
+        const formData = new FormData(contactForm);
+
+        // Set your API key
+        const apiKey = "c0610428-298b-4590-bdc1-c999b64b2133"; // Replace with your actual API key
+
+        // Set headers including the API key
+        const headers = new Headers();
+        headers.append("Authorization", `Bearer ${apiKey}`);
+
+        // Send data to api.web3forms.com using Fetch API
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData,
+          headers: headers
+        })
+        .then(response => response.json())
+        .then(data => {
+          // Handle response data if needed
+          console.log(data);
+
+          // Clear input fields
+          const formInputs = contactForm.querySelectorAll("input, textarea");
+          formInputs.forEach(input => {
+            input.value = "";
+          });
+
+          // Optionally, you can display a confirmation message to the user
+          alert("Form submitted successfully!");
+
+          // Optionally, you can focus on the first input field after clearing
+          formInputs[0].focus();
+        })
+        .catch(error => {
+          console.error("Error submitting form:", error);
+        });
       });
-
-      const data = await response.json();
-      console.log(data);
-
-      // Clear input fields
-      document.getElementById("name").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("phone").value = "";
-      document.getElementById("message").value = "";
-
-      // Display a confirmation message to the user
-      alert("Form submitted successfully!");
-
-      return true; // Allow the form to submit after successful asynchronous submission
-    } catch (error) {
-      console.error("Error submitting form:", error);
-
-      return false; // Prevent the form from submitting if there was an error
-    }
-  }
+    });
