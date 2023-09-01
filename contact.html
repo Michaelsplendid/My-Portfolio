@@ -46,9 +46,14 @@
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                                <form id="contactForm" method="POST" action="https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758" onsubmit="myFunction()">
+                                    <!-- Honeypot -->
+                                    <input type="text" name="_honey" style="display: none;">
+                                
+                                    <!-- Disable Captcha -->
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_next" value="https://emmanuel-adiele.netlify.app/contact.html">
 
-                                    <input type="hidden" name="access_key" value="c0610428-298b-4590-bdc1-c999b64b2133">
                                     <!-- Name input-->
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="name" name="Name&nbsp;" type="text" placeholder="Enter your name..." data-sb-validations="required" required>
@@ -75,7 +80,7 @@
                                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                     </div>
                                     <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg enabled" type="submit" value="Submit">Submit</button></div>
+                                    <div class="d-grid"><button class="btn btn-primary btn-lg enabled" type="submit" value="Submit" id="submit" onsubmit="myFunction()">Submit</button></div>
                                 </form>
                                 <br><br>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
