@@ -72,7 +72,7 @@
   }
 
 document.addEventListener("DOMContentLoaded", function () {
-      const contactForm = document.getElementById("contact-form");
+      const contactForm = document.getElementById("contactForm");
 
       // Event listener for the reset button
       resetButton.addEventListener("click", function () {
