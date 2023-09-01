@@ -70,7 +70,7 @@
       const contactForm = document.getElementById("contactForm");
 
       contactForm.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from submitting
+        event.preventDefault();
 
         // Get form data
         const formData = new FormData(contactForm);
@@ -80,10 +80,14 @@
           method: "POST",
           body: formData
         })
-        .then(response => response.json())
+        .then(response => response.json()) block
         .then(data => {
-          // Handle response data if needed
-          console.log(data);
+
+        // After getting form data
+        console.log("Form Data:", formData);
+
+        console.log("API Response:", data);
+
 
           // Clear input fields
           const formInputs = contactForm.querySelectorAll("input, textarea");
@@ -91,7 +95,6 @@
             input.value = "";
           });
 
-          // Optionally, you can display a confirmation message to the user
           alert("Form submitted successfully!");
 
           // Optionally, you can focus on the first input field after clearing
