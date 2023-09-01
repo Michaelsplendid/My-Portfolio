@@ -66,23 +66,26 @@
       /**
        * For Contact form
        */
-      document.addEventListener("DOMContentLoaded", function() {
-      const contactForm = document.getElementById("contactForm");
+        document.addEventListener("DOMContentLoaded", function() {
+        const contactForm = document.getElementById("contact-form");
 
-      contactForm.addEventListener("submit", function(event) {
+        contactForm.addEventListener("submit", function(event) {
         event.preventDefault();
 
         // Get form data
         const formData = new FormData(contactForm);
 
-        // Send data using Fetch API
-        fetch("https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758", {
+        // Replace 'your-api-endpoint' with the actual API endpoint
+        const apiEndpoint = "https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758";
+
+        // Send data to the API endpoint
+        fetch(apiEndpoint, {
           method: "POST",
           body: formData
         })
         .then(response => response.json())
         .then(data => {
-
+          // Handle response data if needed
           console.log(data);
 
           // Clear input fields
@@ -91,10 +94,8 @@
             input.value = "";
           });
 
-          // Optionally, you can display a confirmation message to the user
           alert("Form submitted successfully!");
 
-          // Optionally, you can focus on the first input field after clearing
           formInputs[0].focus();
         })
         .catch(error => {
