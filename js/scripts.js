@@ -70,3 +70,18 @@
   function myFunction() {
     alert("Thank you for contacting me");
   }
+
+document.addEventListener("DOMContentLoaded", function () {
+      const contactForm = document.getElementById("contact-form");
+
+      // Event listener for the reset button
+      resetButton.addEventListener("click", function () {
+        // Reset form fields
+        contactForm.reset();
+      });
+    });
+
+
+
+
+
