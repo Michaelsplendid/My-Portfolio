@@ -66,28 +66,32 @@
       /**
        * For Contact form
        */
-        document.addEventListener("DOMContentLoaded", function() {
+            document.addEventListener("DOMContentLoaded", function() {
       const contactForm = document.getElementById("contactForm");
 
       contactForm.addEventListener("submit", function(event) {
-        event.preventDefault();
+        event.preventDefault(); // Prevent the form from submitting
 
         // Get form data
         const formData = new FormData(contactForm);
 
-        // Send data using Fetch API
-        fetch("https://formsubmit.co/ajax/2c8e34f1901d4b1e89b5975ed98d8758, {
+        // Set your API key
+        const apiKey = "c0610428-298b-4590-bdc1-c999b64b2133";
+
+        // Set headers including the API key
+        const headers = new Headers();
+        headers.append("Authorization", `Bearer ${apiKey}`);
+
+        // Send data to api.web3forms.com using Fetch API
+        fetch("https://api.web3forms.com/submit", {
           method: "POST",
-          body: formData
+          body: formData,
+          headers: headers
         })
-        .then(response => response.json()) block
+        .then(response => response.json())
         .then(data => {
-
-        // After getting form data
-        console.log("Form Data:", formData);
-
-        console.log("API Response:", data);
-
+          // Handle response data if needed
+          console.log(data);
 
           // Clear input fields
           const formInputs = contactForm.querySelectorAll("input, textarea");
