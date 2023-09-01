@@ -67,7 +67,8 @@
      * Contact Form
      */
     function myFunction(event) {
-    
+    event.preventDefault();
+            
     const contactForm = document.getElementById("contactForm");
     const formData = new FormData(contactForm);
 
