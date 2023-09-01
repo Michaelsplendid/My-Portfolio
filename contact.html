@@ -46,7 +46,12 @@
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <form id="contactForm">
+                                <form id="contactForm" method="POST" action="https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758" onsubmit="return myFunction(event);">
+                                    <!-- Honeypot -->
+                                    <input type="text" name="_honey" style="display: none;">
+                                
+                                    <!-- Disable Captcha -->
+                                    <input type="hidden" name="_captcha" value="false">
 
                                     <!-- Name input-->
                                     <div class="form-floating mb-3">
