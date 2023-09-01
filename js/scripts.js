@@ -62,3 +62,17 @@
           }
         }
       });
+
+      /**
+       * For Contact form
+       */
+    document.addEventListener("DOMContentLoaded", function () {
+      const contactForm = document.getElementById("contactForm");
+
+      contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Clear form inputs
+        contactForm.reset();
+      });
+    });
