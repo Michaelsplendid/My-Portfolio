@@ -67,19 +67,16 @@
        * For Contact form
        */
         document.addEventListener("DOMContentLoaded", function() {
-        const contactForm = document.getElementById("contactForm");
+      const contactForm = document.getElementById("contactForm");
 
-        contactForm.addEventListener("submit", function(event) {
-        event.preventDefault();
+      contactForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the form from submitting
 
         // Get form data
         const formData = new FormData(contactForm);
 
-        // Replace 'your-api-endpoint' with the actual API endpoint
-        const apiEndpoint = "https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758";
-
-        // Send data to the API endpoint
-        fetch(apiEndpoint, {
+        // Send data using Fetch API
+        fetch("https://formsubmit.co/ajax/2c8e34f1901d4b1e89b5975ed98d8758", {
           method: "POST",
           body: formData
         })
@@ -94,8 +91,10 @@
             input.value = "";
           });
 
+          // Optionally, you can display a confirmation message to the user
           alert("Form submitted successfully!");
 
+          // Optionally, you can focus on the first input field after clearing
           formInputs[0].focus();
         })
         .catch(error => {
