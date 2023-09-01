@@ -66,22 +66,39 @@
       /**
        * For Contact form
        */
-       document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function() {
       const contactForm = document.getElementById("contactForm");
 
       contactForm.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from submitting and refreshing the page
+        event.preventDefault();
 
-        // Clear input fields
-        const formInputs = contactForm.querySelectorAll("input, textarea");
-        formInputs.forEach(input => {
-          input.value = "";
+        // Get form data
+        const formData = new FormData(contactForm);
+
+        // Send data using Fetch API
+        fetch("https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758", {
+          method: "POST",
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+
+          console.log(data);
+
+          // Clear input fields
+          const formInputs = contactForm.querySelectorAll("input, textarea");
+          formInputs.forEach(input => {
+            input.value = "";
+          });
+
+          // Optionally, you can display a confirmation message to the user
+          alert("Form submitted successfully!");
+
+          // Optionally, you can focus on the first input field after clearing
+          formInputs[0].focus();
+        })
+        .catch(error => {
+          console.error("Error submitting form:", error);
         });
-
-        // Optionally, you can display a confirmation message to the user
-        alert("Form submitted successfully!");
-
-        // Optionally, you can focus on the first input field after clearing
-        formInputs[0].focus();
       });
     });
