@@ -66,13 +66,23 @@
       /**
        * For Contact form
        */
-    document.addEventListener("DOMContentLoaded", function () {
-      const contactForm = document.getElementById("contactForm");
+       document.addEventListener("DOMContentLoaded", function() {
+          const contactForm = document.getElementById("contactForm");
 
-      contactForm.addEventListener("submit", function (event) {
-        event.preventDefault();
+          contactForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the form from submitting and refreshing the page
 
-        // Clear form inputs
-        contactForm.reset();
-      });
-    });
+    // Clear input fields
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("phone").value = "";
+    document.getElementById("message").value = "";
+
+    // Optionally, you can display a confirmation message to the user
+    alert("Form submitted successfully!");
+
+    // You can also focus on the first input field after clearing
+    document.getElementById("name").focus();
+  });
+});
+
