@@ -76,7 +76,7 @@
         const formData = new FormData(contactForm);
 
         // Send data using Fetch API
-        fetch("https://formsubmit.co/ajax/2c8e34f1901d4b1e89b5975ed98d8758", {
+        fetch("https://formsubmit.co/ajax/2c8e34f1901d4b1e89b5975ed98d8758, {
           method: "POST",
           body: formData
         })
