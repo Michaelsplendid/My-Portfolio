@@ -66,32 +66,35 @@
      /**
      * Contact Form
      */
-    function myFunction(event) {
-    event.preventDefault();
-            
-    const contactForm = document.getElementById("contactForm");
-    const formData = new FormData(contactForm);
-
-    fetch("https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758", {
-      method: "POST",
-      body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
+     function myFunction(event) {
+      event.preventDefault();
       
-      console.log(data);
+      const contactForm = document.getElementById("contactForm");
+      const formData = new FormData(contactForm);
+  
+      fetch("https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758", {
+        method: "POST",
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
 
-      // Clear input fields
-      document.getElementById("name").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("phone").value = "";
-      document.getElementById("message").value = "";
-
-      alert("Form submitted successfully!");
-    })
-    .catch(error => {
-      console.error("Error submitting form:", error);
-    });
-
-    return false;
-  }
+        console.log(data);
+  
+        // Clear input fields
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("phone").value = "";
+        document.getElementById("message").value = "";
+  
+        // Display a confirmation message to the user
+        alert("Form submitted successfully!");
+  
+        return true; 
+      })
+      .catch(error => {
+        console.error("Error submitting form:", error);
+  
+        return false; 
+      });
+    }
