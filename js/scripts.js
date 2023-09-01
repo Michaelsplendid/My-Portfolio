@@ -62,50 +62,35 @@
           }
         }
       });
+     
+     /**
+     * Contact Form
+     */
+    function myFunction(event) {
+    
+    const contactForm = document.getElementById("contactForm");
+    const formData = new FormData(contactForm);
 
-      /**
-       * For Contact form
-       */
-            document.addEventListener("DOMContentLoaded", function() {
-      const contactForm = document.getElementById("contactForm");
+    fetch("https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758", {
+      method: "POST",
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      
+      console.log(data);
 
-      contactForm.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from submitting
+      // Clear input fields
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("message").value = "";
 
-        // Get form data
-        const formData = new FormData(contactForm);
-
-        // Set your API key
-        const apiKey = "c0610428-298b-4590-bdc1-c999b64b2133";
-
-        // Set headers including the API key
-        const headers = new Headers();
-        headers.append("Authorization", `Bearer ${apiKey}`);
-
-        // Send data to api.web3forms.com using Fetch API
-        fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          body: formData,
-          headers: headers
-        })
-        .then(response => response.json())
-        .then(data => {
-          // Handle response data if needed
-          console.log(data);
-
-          // Clear input fields
-          const formInputs = contactForm.querySelectorAll("input, textarea");
-          formInputs.forEach(input => {
-            input.value = "";
-          });
-
-          alert("Form submitted successfully!");
-
-          // Optionally, you can focus on the first input field after clearing
-          formInputs[0].focus();
-        })
-        .catch(error => {
-          console.error("Error submitting form:", error);
-        });
-      });
+      alert("Form submitted successfully!");
+    })
+    .catch(error => {
+      console.error("Error submitting form:", error);
     });
+
+    return false;
+  }
