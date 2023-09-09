@@ -34,56 +34,103 @@
                     </div>
                 </div>
             </nav>
-            <!-- Page content-->
+            <!-- Projects Section-->
             <section class="py-5">
-                <div class="container px-5">
-                    <!-- Contact form-->
-                    <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-                        <div class="text-center mb-5">
-                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                            <h1 class="fw-bolder">Get in touch</h1>
-                            <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
-                        </div>
-                        <div class="row gx-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6">
-                                <form id="contactForm" method="POST" action="https://formsubmit.co/2c8e34f1901d4b1e89b5975ed98d8758" onsubmit="return myFunction(event);">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" name="Name&nbsp;" type="text" placeholder="Enter your name..." data-sb-validations="required" required>
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <a href="https://mm-generator.netlify.com" target="_blank"><img class="img-fluid" src="assets/projects images/img6.jpeg" alt="Mindful Moment Generator Image" width="100%" /></a>
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Mindful Moment Generator</h2>
+                                            <p>A web-based application that generates random and soothing "mindful moments" to help users take short breaks and practice mindfulness throughout their day. The Mindful Moment Generator offers calming activities, quotes, and relaxation techniques to promote mental well-being. I built this webapp using html, css and javascript for backend.</p>
+                                        </div>
                                     </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" name="Email&nbsp;" type="email" placeholder="name@example.com" data-sb-validations="required,email" required>
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <a href="https://creative-landing-page-master.netlify.com" target="_blank"><img class="img-fluid" src="assets/projects images/img1.jpeg" alt="Landing Page Image" width="100%" /></a>
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Product Landing Page</h2>
+                                            <p>A Creative Product Landing page template built using html and css.</p>
+                                        </div>
                                     </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" name="Phone&nbsp;Number&nbsp;" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" required>
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                </div>
+                            </div>
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <a href="https://enermics.netlify.com" target="_blank"><img class="img-fluid" src="assets/projects images/img2.jpeg" alt="Enermics Website Page Image" width="100%" /></a>
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Enermics Website</h2>
+                                            <p>I am currently working on this project for Enermics Consulting Limited using html, css, bootsrap, php and Javascript.</p>
+                                        </div>
                                     </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" name="Message&nbsp;" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" required></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                </div>
+                            </div>
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                   <a href="https://responsive-sidebar-menu.netlify.com" target="_blank"><img class="img-fluid" src="assets/projects images/img3.jpeg" alt="Responsive Sidebar Menu Image" /></a>
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Responsive Sidebar Menu</h2>
+                                            <p>I built a responsive sidebar menu with light/dark mode using html, css and javascript.</p>
+                                        </div>
                                     </div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg enabled" type="submit" value="Submit" id="submit">Submit</button></div>
-                                </form>
-                                <br><br>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="https://twitter.com/EmmaWebDev"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="https://www.linkedin.com/in/emmanuel-adiele-52251117a"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="https://github.com/Michaelsplendid?tab=repositories"><i class="bi bi-github"></i></a>
-                                    <a class="text-gradient" href="https://wa.me/qr/HQHTC4DA5TEOF1"><i class="bi bi-whatsapp"></i></a>
+                                </div>
+                            </div>
+                             <!-- Project Card 5-->
+                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <a href="https://google-landingpage-clone.netlify.com" target="_blank"><img class="img-fluid" src="assets/projects images/img4.jpeg" alt="Google Landing Page Clone Image" width="100%" /></a>
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Google Landing Page Clone</h2>
+                                            <p>I built google landing page from scratch with Light and Dark mode using html, css and javascript.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Project Card 6-->
+                             <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <a href="https://gmail-clone-master.netlify.com" target="_blank"><img class="img-fluid" src="assets/projects images/img5.jpeg" alt="Gmail HomePage Clone Image" width="100%" /></a>
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Gmail Homepage Clone</h2>
+                                            <p>Gmail Homepage built entirely with just html, css and scss.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-smaller">More Projects...</h2>
+                                    <p>To see more of my projects, kindly look up my Github repository <a class="justify-content-center fs-2 gap-4" class="text-gradient" href="https://github.com/Michaelsplendid?tab=repositories"><i class="bi bi-github"></i></a></p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-light mb-4">I'm always ready to build!</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
                     </div>
                 </div>
             </section>
