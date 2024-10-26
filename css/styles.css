@@ -3188,9 +3188,10 @@ textarea.form-control-lg {
 
 .dropdown-toggle {
   white-space: nowrap;
+float: right;
 }
 .dropdown-toggle::after {
-  display:flex;
+  display: inline-block;
   margin-left: 0.255em;
   vertical-align: 0.255em;
   content: "";
