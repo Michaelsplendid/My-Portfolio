@@ -3186,9 +3186,15 @@ textarea.form-control-lg {
   position: relative;
 }
 
+@media (max-width: 575.98px) {
+  .dropdown-toggle{
+  float: right;
+  display: flex;
+ position: relative;
+  )
+}
 .dropdown-toggle {
   white-space: nowrap;
-float: right;
 }
 .dropdown-toggle::after {
   display: inline-block;
