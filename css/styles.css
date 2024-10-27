@@ -3784,7 +3784,7 @@ textarea.form-control-lg {
   color: var(--bs-navbar-active-color);
 }
 .navbar-nav .dropdown-menu {
-  position: static;
+  position: relative;
 }
 
 .navbar-text {
@@ -3817,11 +3817,7 @@ textarea.form-control-lg {
   transition: var(--bs-navbar-toggler-transition);
 }
 @media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
-    transition: none;
-    float: right;
-    position: relative;
-    display: flex;
+  .navb
   }
 }
 .navbar-toggler:hover {
@@ -3901,6 +3897,11 @@ textarea.form-control-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
+.navbar-toggler {
+    float: right;
+    position: relative;
+    display: flex;
+}
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
   }
