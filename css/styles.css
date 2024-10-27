@@ -3830,7 +3830,7 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler-icon {
-  display: flex;
+  display: inline-block;
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
@@ -3897,11 +3897,6 @@ textarea.form-control-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
-.navbar-toggler {
-    float: right;
-    position: relative;
-    display: flex;
-}
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
   }
